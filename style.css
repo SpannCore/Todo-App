@@ -75,7 +75,7 @@ body {
 }
 
 .task {
-  height: 55px;
+  min-height: 55px;
   width: 490px;
   margin: auto;
   margin-bottom: 10px;
@@ -111,9 +111,8 @@ body {
 }
 
 .task-text {
-  max-height: 100%;
+  word-wrap: break-word;
   max-width: 85%;
-  overflow: scroll;
   margin-left: 10px;
   margin-right: 10px;
 }
