@@ -114,7 +114,7 @@ body {
 }
 
 .task-del {
-  background-image: url('/Images/del.svg');
+  background-image: url('./Images/del.svg');
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: center;
