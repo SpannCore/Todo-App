@@ -13,15 +13,6 @@ function addTask() {
   if (!addMessage.value.trim()) {
     return;
   }
-  // let checked = true;
-
-  // tasks.forEach((item) => {
-  //   if (addMessage.value.trim() === item.text) {
-  //     checked = false;
-  //   }
-  // });
-
-  // if (!checked) return;
 
   let newTodo = {
     text: addMessage.value,
@@ -56,7 +47,7 @@ function displayMessages() {
       <div class="task-text ${item.checked ? 'complete' : ''}" >
         ${item.text}
       </div>
-      <div class="task-del" id="del">x</div>
+      <div class="task-del" id="del"></div>
     </div>
     `;
 

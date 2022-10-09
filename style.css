@@ -75,7 +75,7 @@ body {
 }
 
 .task {
-  min-height: 55px;
+  min-height: 60px;
   width: 490px;
   margin: auto;
   margin-bottom: 10px;
@@ -106,10 +106,6 @@ body {
   content: '\2713';
 }
 
-.complete {
-  text-decoration: line-through;
-}
-
 .task-text {
   word-wrap: break-word;
   max-width: 85%;
@@ -118,6 +114,10 @@ body {
 }
 
 .task-del {
+  background-image: url('/Images/del.svg');
+  background-repeat: no-repeat;
+  background-size: 10px;
+  background-position: center;
   display: none;
   cursor: pointer;
   border: 2px solid rgba(42, 82, 190, 0.4);
